@@ -16,7 +16,7 @@
                     </h3>
 
                     <a href="{{ route('trains.show', ['id' => $train->id]) }}" class="btn btn-primary">
-                        Vai al film
+                        info treno
                     </a>
                 </div>
             </div>
