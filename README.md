@@ -14,3 +14,24 @@
 - Al posto di npm run build, potreste eseguire npm run dev e lasciarlo attivo
 
 6. Aprire un altro terminale ed eseguire il comando php artisan serve
+
+---------------------------------------------------------------
+Esercizio di oggi: Laravel Migration Seeder
+nome repo: laravel-migration-seeder
+Milestone 1
+Creiamo una tabella trains e relativa Migration
+Ogni treno dovrà avere:
+Azienda ----- string not null
+Stazione di partenza ----- string not null
+Stazione di arrivo --------- string not null
+Orario di partenza  ---- int not null
+Orario di arrivo ---- int not null 
+Codice Treno ---- string not null
+Numero Carrozze  ----- int not null
+In orario --- bool not null
+Cancellato --- bool not null
+È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto ;) ...
+Inserite inizialmente i dati tramite PhpMyAdmin.
+Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
+Milestone 2
+Aggiungiamo un seeder per la classe Train usando FakerPHP.
